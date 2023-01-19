@@ -1,5 +1,11 @@
 export const robots = [
     {
+        id:0,
+        name:'Eliza Pun',
+        Username: 'Front-End Developer',
+        email:'elizapun@gmail.com'
+    },
+    {
         id: 1,
         name: 'Amos Pun',
         Username: 'Gaurd',
