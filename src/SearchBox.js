@@ -7,7 +7,7 @@ const SearchBox = ({serachfield, searchChange}) => {
         type={"serach"} 
         // type = "search"
         placeholder="search share holders"
-        className="bg-light w-50 p-2 bg-light"
+        className="w-50 p-2 searchbox1"
         onChange={searchChange}
       />
     </div>
