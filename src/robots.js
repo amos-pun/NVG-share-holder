@@ -1,6 +1,7 @@
 export const robots = [
    {
     name:'Binay Lama',
+    img:'./img/binay.jpg'
    },
    {
     name:'Trinetra Ghale',
