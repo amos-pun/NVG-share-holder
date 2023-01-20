@@ -58,5 +58,11 @@ export const robots = [
         name: 'David Sherpa',
         Username: 'Accountant',
         email: 'david123@gmail.com'
+    },
+    {
+        id:10,
+        name: 'Binay Lama',
+        Username: 'Chairman',
+        email: 'binaylama@gmail.com'
     }
 ]
