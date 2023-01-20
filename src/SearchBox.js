@@ -6,7 +6,7 @@ const SearchBox = ({serachfield, searchChange}) => {
       <input
         type={"serach"} 
         // type = "search"
-        placeholder="search robots"
+        placeholder="search share holders"
         className="bg-light w-50 p-2 bg-light"
         onChange={searchChange}
       />
