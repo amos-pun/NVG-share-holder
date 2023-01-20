@@ -5,12 +5,18 @@ export const robots = [
    },
    {
     name:'Trinetra Ghale',
+    img:'./img/Tri.jpg'
+
    },
    {
     name:'Amos Pun',
+    img:'./img/me.jpg'
+
    },
    {
     name:'David Sherpa',
+    img:'./img/David.jpg'
+
    },
    {
     name:'Narayan Tamang',
