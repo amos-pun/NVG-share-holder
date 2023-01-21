@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rowdies:wght@700&family=Seymour+One&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -5,14 +7,48 @@
 }
 
 body{
-  background-color: beige;
+  background-color: lightblue;
 }
 
 .card_card{
-  background-color: rgba(64, 196, 255, 0.2);
+  background-color: rgba(210, 246, 49, 0.4);
 }
 
 .searchbox1{
   background-color: gainsboro;
   border-radius: 10px;
+}
+.center_div{
+  font-family: 'Rowdies', cursive;
+  font-size: 50px;
+}
+.heading{
+  color: #1B5E20;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.heading::before{
+  content: "New_Vision_Group";
+  width: 100%;
+  color: #FF6F00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 5px solid #1B5E20  ;
+  animation: slide 6s linear infinite;
+  -webkit-animation: slide 6s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 100%;
+  }
+  100%{
+    width: 0%;
+  }
 }

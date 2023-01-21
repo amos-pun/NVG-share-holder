@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 import './App.css'
+
 class App extends Component {
   constructor(){
     super()
@@ -22,7 +23,9 @@ class App extends Component {
     })
     return (
       <div>
-        <h1 className="m-2 text-center">New Vision Group</h1>
+        <div className="d-flex justify-content-evenly center_div">
+          <p className="m-2 text-center heading">New_Vision_Group</p>
+        </div>
         <SearchBox searchChange={this.onSearchChange}/>
         <CardList robots={filteredRobots} />
       </div>
